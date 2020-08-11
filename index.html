@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+         rel="stylesheet"
+      />
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <div>
+         <a href="https://www.youtube.com/watch?v=OD54eF2XKJA">
+            <!-- secret clickable video for fun :] -->
+            <img
+               src="https://images-na.ssl-images-amazon.com/images/I/71hs5CnGChL._AC_SL1500_.jpg"
+               alt="Jordan Wings"
+         /></a>
+      </div>
+      <div class="container">
+         <h1>How well do you know Michael Jordan?</h1>
+         <form id="thisForm" name="thisForm">
+            <h3>What year was he drafted?</h3>
+            <label for="1986">
+               <input id="draft1" value="1986" type="radio" name="draft" />1986
+            </label>
+            <label for="1990">
+               <input id="draft2" value="1990" type="radio" name="draft" />1990
+            </label>
+            <label for="1984">
+               <input id="draft3" value="1984" type="radio" name="draft" />1984
+            </label>
+            <h3>What team was he drafted to?</h3>
+            <label for="lakers">
+               <input
+                  id="team1"
+                  value="Lakers"
+                  type="radio"
+                  name="team"
+               />Lakers
+            </label>
+            <label for="Bulls">
+               <input id="team2" value="Bulls" type="radio" name="team" />Bulls
+            </label>
+            <label for="knicks">
+               <input
+                  id="team3"
+                  value="Knicks"
+                  type="radio"
+                  name="team"
+               />Knicks
+            </label>
+            <h3>
+               With what company did Michael Jordan sign his first shoe deal?
+            </h3>
+            <label for="converse">
+               <input
+                  id="shoe1"
+                  value="Converse"
+                  type="radio"
+                  name="shoe"
+               />Converse
+            </label>
+            <label for="nike">
+               <input id="shoe2" value="Nike" type="radio" name="shoe" />Nike
+            </label>
+            <label for="adidas">
+               <input
+                  id="shoe3"
+                  value="Adidas"
+                  type="radio"
+                  name="shoe"
+               />Adidas
+            </label>
+            <h3>
+               During his basketball career, &nbspJordan briefly retired from
+               basketball to play what sport?
+            </h3>
+            <label for="baseball">
+               <input
+                  id="sport1"
+                  value="baseball"
+                  type="radio"
+                  name="careerChange"
+               />Baseball
+            </label>
+            <label for="football">
+               <input
+                  id="sport2"
+                  value="football"
+                  type="radio"
+                  name="careerChange"
+               />Football
+            </label>
+            <label for="hockey">
+               <input
+                  id="sport3"
+                  value="hockey"
+                  type="radio"
+                  name="careerChange"
+               />Hockey
+            </label>
+            <h3>
+               How many Championships did Michael win throughout his career?
+            </h3>
+            <label for="3">
+               <input
+                  id="championships1"
+                  value="3"
+                  type="radio"
+                  name="championships"
+               />3
+            </label>
+            <label for="5">
+               <input
+                  id="championships2"
+                  value="5"
+                  type="radio"
+                  name="championships"
+               />5
+            </label>
+            <label for="6">
+               <input
+                  id="championships3"
+                  value="6"
+                  type="radio"
+                  name="championships"
+               />6
+            </label>
+            <br />
+            <input
+               type="button"
+               class="button"
+               value="Submit"
+               onClick="loopForm(document.thisForm);"
+            />
+         </form>
+      </div>
+   </body>
+</html>
